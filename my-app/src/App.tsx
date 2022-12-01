@@ -2,6 +2,7 @@ import React from 'react';
 
 //components
 import Sidebar from "./components/Sidebar";
+import Tools from "./components/Tools";
 
 import {
     Main,
@@ -12,6 +13,7 @@ function App() {
   return (
       <Main>
           <Sidebar/>
+          <Tools/>
           <Content>
               {/*<Navbar/>*/}
               {/*<Schedule/>*/}

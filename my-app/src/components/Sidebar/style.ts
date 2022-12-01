@@ -4,25 +4,26 @@ import styled from 'styled-components';
 import searchIcon from '../../assets/images/Search.svg';
 
 export const Container = styled.div`
+  padding-top: 26px;
   display: flex;
   flex-direction: column;
-  padding: 26px 16px;
+  gap :19px;
   background-color: #0F1D40;
   width: 20%;
   height: auto;
 `;
 
 export const LogoContainer = styled.img`
-  margin-bottom: 30px;
+  padding-left:16px;
   height: 32px;
   width: 131px;
 `;
 
 export const InputWrapper = styled.div`
+  padding: 0 16px;
   position: relative;
-  width: 100%;
+  width: auto;
   display: flex;
-  padding: 2px;
 `;
 
 export const Input = styled.input`
@@ -48,7 +49,7 @@ export const InputIcon = styled.button`
   position: absolute;
   height: 16px;
   width: 16px;
-  right: 8px;
+  right: 26px;
   top: 28%;
   background-size: contain;
   border: none;
@@ -57,9 +58,37 @@ export const InputIcon = styled.button`
   opacity: 0.7;
 `;
 
+export const MyWorkspaceWrapper = styled.div`
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  gap:8px;
+  cursor: pointer;
+  background-color: #2D4071;;
 
-export const MenuDropdownWrapper = styled.ul`
-  //display: flex;
-  //flex-direction: column;
-  //gap:10px;
+`;
+
+export const MyWorkspaceIcon = styled.img`
+  height: 28px;
+  width: 28px;
+`;
+
+export const MyWorkspaceTitle = styled.div`
+  margin: 16px 0;
+  color: white;
+  width: auto;
+  height: 16px;
+  font-family: 'Roboto-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+`;
+
+export const DropDownsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 `;

@@ -2,6 +2,67 @@ html,body{
   height: 100%;
 }
 
+@font-face {
+  font-family: "Roboto-Black";
+  src:local("Roboto-Black"),url("./fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src:local("Roboto-BlackItalic"),url("./fonts/Roboto-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src:local("Roboto-Bold"),url("./fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src:local("Roboto-BoldItalic"),url("./fonts/Roboto-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src:local("Roboto-Italic"),url("./fonts/Roboto-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src:local("Roboto-Light"),url("./fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src:local("Roboto-LightItalic"),url("./fonts/Roboto-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src:local("Roboto-Medium"),url("./fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src:local("Roboto-MediumItalic"),url("./fonts/Roboto-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src:local("Roboto-Regular"),url("./fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src:local("Roboto-Thin"),url("./fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src:local("Roboto-ThinItalic"),url("./fonts/Roboto-ThinItalic.ttf") format("truetype");
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,7 +72,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+ul{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

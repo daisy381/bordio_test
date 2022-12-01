@@ -1,7 +1,8 @@
-import React, { FC } from 'react';
+import React, {FC, useState} from 'react';
 
 //assets
 import logo from '../../assets/images/bordio-logo.svg';
+import WorkspaceLogo from '../../assets/images/workspace-icon.svg'
 import items from './mock.json';
 
 import {
@@ -10,7 +11,10 @@ import {
     InputWrapper,
     Input,
     InputIcon,
-    MenuDropdownWrapper
+    MyWorkspaceWrapper,
+    MyWorkspaceIcon,
+    MyWorkspaceTitle,
+    DropDownsWrapper
 } from "./style";
 import MenuDropdown from "../MenuDropdown";
 
@@ -29,13 +33,18 @@ const Sidebar: FC<SidebarProps> = () => {
               <InputIcon/>
           </InputWrapper>
 
-          {
-              items.map(({title,children},index)=>(
-                  <MenuDropdown title={title} items={children} key={index}/>
-              ))
-          }
+          <MyWorkspaceWrapper>
+              <MyWorkspaceIcon src={WorkspaceLogo} alt="workspace_icon"/>
+              <MyWorkspaceTitle>{"My Workspace"}</MyWorkspaceTitle>
+          </MyWorkspaceWrapper>
 
-
+          <DropDownsWrapper>
+              {
+                  items.map(({title,children},index)=>(
+                      <MenuDropdown title={title} items={children} key={index}/>
+                  ))
+              }
+          </DropDownsWrapper>
       </Container>
     );
 };
