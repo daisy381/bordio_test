@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Favorites",
+    "link": "/favorites",
+    "children": [
+      {
+        "title": "Marketing",
+        "link": "/favorites/marketing"
+      },
+      {
+        "title": "Mobile App",
+        "link": "/favorites/mobile_app"
+      }
+    ]
+  },
+  {
+    "title": "My Projects",
+    "link": "/my_projects",
+    "children": [
+      {
+        "title": "Marketing",
+        "link": "/my_projects/marketing"
+      },
+      {
+        "title": "Landing Pages",
+        "link": "/my_projects/landing_pages"
+      },
+      {
+        "title": "Wedding",
+        "link": "/my_projects/wedding"
+      },
+      {
+        "title": "Mobile App",
+        "link": "/my_projects/mobile_app"
+      },
+      {
+        "title": "House Construction",
+        "link": "/my_projects/house_construction"
+      }
+    ]
+  }
+]
