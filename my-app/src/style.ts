@@ -7,5 +7,8 @@ export const Main = styled.div`
 `;
 
 export const Content = styled.div`
+  display: inherit;
+  flex-direction: column;
   flex-grow: 1;
+  gap:2px;
 `;

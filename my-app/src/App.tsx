@@ -3,6 +3,7 @@ import React from 'react';
 //components
 import Sidebar from "./components/Sidebar";
 import Tools from "./components/Tools";
+import Navbar from "./components/Navbar";
 
 import {
     Main,
@@ -15,7 +16,7 @@ function App() {
           <Sidebar/>
           <Tools/>
           <Content>
-              {/*<Navbar/>*/}
+              <Navbar/>
               {/*<Schedule/>*/}
           </Content>
       </Main>
