@@ -76,7 +76,7 @@ export const MyWorkspaceIcon = styled.img`
 `;
 
 export const MyWorkspaceTitle = styled.div`
-  margin: 16px 0;
+  margin: 12px 0;
   color: white;
   width: auto;
   height: 16px;
