@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #F5F8FA;
-  width: 14%;
+  width: 10%;
 `;
 
 export const TitleWrapper = styled.h3`

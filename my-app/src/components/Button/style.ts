@@ -21,7 +21,6 @@ export const ButtonContent = styled.p`
   margin:0;
   color: white;
   width: auto;
-  height: 16px;
   font-family: 'Roboto-Regular';
   font-style: normal;
   font-weight: 400;

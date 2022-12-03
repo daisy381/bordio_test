@@ -11,7 +11,7 @@ export const Tab = styled.div`
   gap:14px;
   align-items: center;
   cursor: pointer;
-  width: 60%;
+  width: 70%;
   text-align: center;
   padding: 18px 14px;
   position: relative;

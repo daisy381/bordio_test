@@ -12,7 +12,7 @@ const Button: FC = () => {
 
     return (
         <Container>
-            <ButtonIcon src={plus} alt="logo"/>
+            <ButtonIcon src={plus} alt="add_new_icon"/>
             <ButtonContent>{"Add new"}</ButtonContent>
         </Container>
     );
