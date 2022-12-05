@@ -78,5 +78,5 @@ export const ScheduleItemHours = styled.div<ItemProps>`
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  color: ${props => props.status === 'completed' ? "#A5A5A5" : "#435E52"};
+  color: ${props => props.status === 'completed' ? "#A5A5A5" : "#222"};
 `;
