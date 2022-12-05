@@ -4,6 +4,7 @@ import React from 'react';
 import Sidebar from "./components/Sidebar";
 import Tools from "./components/Tools";
 import Navbar from "./components/Navbar";
+import Schedule from "./components/Schedule";
 
 import {
     Main,
@@ -17,7 +18,7 @@ function App() {
           <Tools/>
           <Content>
               <Navbar/>
-              {/*<Schedule/>*/}
+              <Schedule/>
           </Content>
       </Main>
   );
